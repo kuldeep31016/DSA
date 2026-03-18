@@ -20,7 +20,7 @@ void SwapAlternate(int arr[], int size){
 
 int main(){
 
-    int arr[]={2,3,4,5,6};
-    SwapAlternate(arr,5);
+    int arr[]={5,2,9,4,7,6,1,0};
+    SwapAlternate(arr,8);
     return 0;
 }
