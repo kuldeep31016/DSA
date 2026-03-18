@@ -8,6 +8,8 @@ void reverseArray(int arr[], int size){
 
     while(index < high){
         // swap
+        //we can perform swap uisng the swap() inbuilt in c++
+
         int temp = arr[index];
         arr[index] = arr[high];
         arr[high] = temp;
